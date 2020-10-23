@@ -25,6 +25,8 @@ while True:
         os.system("cls")
     except:
         print("Erro de conexão. Tentando reconectar... ")
+        time.sleep(60)
+        os.system('cls')
 
 
 
